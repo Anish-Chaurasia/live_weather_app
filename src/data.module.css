@@ -1,0 +1,136 @@
+.mainbox {
+    width: 30rem;
+    height: 40rem;
+    margin: 15rem auto;
+    border-radius: 0.6rem;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(103, 100, 100);
+}
+
+.notfound {
+    text-align: center;
+    font-size: 1.7rem;
+    color: rgb(210, 37, 37);
+    font-family: system-ui;
+    width: 30rem;
+    height: 40rem;
+}
+#erritem1 {
+     border-bottom: 0.2rem solid rgb(182, 180, 180);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 4rem;
+   
+}
+#erritem1 p {
+    color: rgb(35, 153, 212);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+    text-align: start;
+}
+#erritem1 div{
+    align-self: center;
+}
+
+.innerbox {
+    width: 30rem;
+    height: 40rem;
+    display: grid;
+    grid-template-rows: 4rem 2fr 1fr 1fr 1fr 1fr;
+}
+
+#item1 {
+    border-bottom: 0.2rem solid rgb(182, 180, 180);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 4rem;
+    font-family: system-ui;
+}
+#item1 div {
+    align-self: center;
+}
+#item1icon {
+    color: rgb(35, 153, 212);
+    font-size: 3.5rem;
+    height: 4rem;
+    border-style: none;
+    align-self: end;
+    background: none;
+    cursor: pointer;
+   
+}
+#item1 p {
+    color: rgb(35, 153, 212);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+#item2 img {
+    width: 36%;
+}
+
+#item2 {
+    text-align: center;
+    margin-top: 2rem;
+}
+
+#item3 {
+    text-align: center;
+    font-size: 2.2rem;
+    font-weight: 900;
+}
+#item4 {
+    text-align: center;
+}
+#item5 {
+    display: flex;
+    gap: 0.5rem;
+
+    justify-self: center;
+}
+#item5icon {
+    color: rgb(35, 153, 212);
+}
+#item6 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border-top: 0.2rem solid rgb(182, 180, 180);
+}
+.item6item {
+    display: grid;
+    grid-template-rows: 2.5rem 2.5rem;
+    grid-template-columns: 1fr 2fr;
+    font-family: system-ui;
+    font-weight: bold;
+}
+#item6itemdiv1 {
+    border-right: 0.2rem solid rgb(182, 180, 180);
+}
+
+#inner6item3 {
+    grid-column: 2;
+    align-self: flex-end;
+}
+#inner6item1 {
+    grid-row: 1/3;
+    text-align: end;
+    align-self: center;
+}
+
+#inner6item1 img {
+    width: 2.2rem;
+
+    background: none;
+}
+#inner6item2 {
+    grid-row: 1/3;
+    text-align: end;
+    align-self: center;
+}
+#inner6item2 img {
+    width: 2.2rem;
+    background: none;
+    margin-right: 0.5rem;
+}

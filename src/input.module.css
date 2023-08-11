@@ -1,0 +1,71 @@
+.mainbox {
+    width: 30rem;
+    height: 20rem;
+    margin: 15rem auto;
+    border-radius: 0.6rem;
+    background-color: rgb(227, 227, 227);
+    box-shadow: 0.2rem 0.2rem 0.5rem rgb(103, 100, 100);
+    display: grid;
+    grid-template-rows: 4.2rem 1fr  0rem 1fr;
+    font-family: system-ui;
+}
+
+#item1 {
+    border-bottom: 0.2rem solid rgb(182, 180, 180);
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+    grid-template-rows: 4rem;
+}
+#item1 div {
+    align-self: center;
+}
+#item1icon {
+    color: rgb(35, 153, 212);
+    font-size: 3.5rem;
+    height: 4rem;
+    border-style: none;
+    align-self: end;
+    background: none;
+    cursor: pointer;
+}
+#item1 p {
+    color: rgb(35, 153, 212);
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+#item2 {
+    text-align: center;
+    align-self: center;
+}
+.mainbox input {
+    height: 2.8rem;
+    width: 80%;
+    text-align: center;
+    border: 2px solid rgb(182, 180, 180);
+    border-radius: 4px;
+    background-color: rgb(232, 237, 237);
+}
+#item3 {
+    text-align: center;
+    align-self: center;
+}
+#item3 button {
+    height: 3.5rem;
+    width: 80%;
+    text-align: center;
+    border-radius: 4px;
+    background-color:rgb(35, 153, 212);
+    border-style: none;
+    cursor: pointer;
+    color: rgb(237, 234, 234);
+}
+
+#item4{
+    text-align: center;
+    align-self: center;
+    font-size: 1.7rem;
+    font-weight: 400;
+    color: rgb(158, 156, 156);;
+}
